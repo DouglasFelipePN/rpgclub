@@ -48,6 +48,7 @@ main p{
     color: aliceblue;
 }
 footer{
+    margin-bottom: 0px;
     padding: 10px;
 background-color: rgba(9, 71, 71, 0.651);
 }
