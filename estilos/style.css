@@ -39,7 +39,7 @@ main{
     background-image: linear-gradient(to right,rgba(8, 124, 108, 0.445),rgba(57, 138, 170, 0.322));
 margin: auto;
 max-width: 480px;
-
+height: 80vh;
 }
 
 main p{
