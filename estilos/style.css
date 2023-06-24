@@ -11,18 +11,47 @@ body{
     
     width: 100vww;
     height: 100vh;
-    background-image: linear-gradient(to top, blue,rgb(12, 74, 85));
-    background-size: 100vw 100vh;
+    background-image: url(../imagens/ded.png);
     background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+header{
+padding: 5px;
+padding-bottom: 9px;
+background-image: linear-gradient(to top,rgb(32, 77, 6),rgba(25, 133, 92, 0.603));
+
 }
 
-
-h1{
+header h1{
     color: aliceblue;
     text-align: center;
 }
-p{
+header p{
     text-align: center;
     color: rgb(196, 135, 44);
     font-size: 1.5em;
+}
+
+
+main{
+
+    background-image: linear-gradient(to right,rgba(8, 124, 108, 0.445),rgba(57, 138, 170, 0.322));
+margin: auto;
+max-width: 480px;
+
+}
+
+main p{
+    padding: 10px;
+    text-align: justify;
+    color: aliceblue;
+}
+footer{
+    padding: 10px;
+background-color: rgba(9, 71, 71, 0.651);
+}
+footer p{
+    text-align: center;
+    color: aliceblue;
 }
