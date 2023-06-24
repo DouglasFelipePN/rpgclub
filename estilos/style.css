@@ -20,7 +20,9 @@ header{
 padding: 5px;
 padding-bottom: 9px;
 background-image: linear-gradient(to top,rgb(32, 77, 6),rgba(25, 133, 92, 0.603));
-
+height: 20vh;
+min-height: 100px;
+max-height: 150px;
 }
 
 header h1{
@@ -39,7 +41,6 @@ main{
     background-image: linear-gradient(to right,rgba(8, 124, 108, 0.445),rgba(57, 138, 170, 0.322));
 margin: auto;
 max-width: 480px;
-height: 80vh;
 }
 
 main p{
@@ -48,8 +49,8 @@ main p{
     color: aliceblue;
 }
 footer{
-    margin-bottom: 0px;
-    padding: 10px;
+    height: 30px;
+    padding-top: 5px;
 background-color: rgba(9, 71, 71, 0.651);
 }
 footer p{
